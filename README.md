@@ -8,4 +8,4 @@ The script is applied if the URL page meets with the format `https://(any domain
 
 If meets with the format, and the regex matches the `HexID`, the window location will be
 redirected to `https://lectortmo.com/viewer/(HexID)/<current configuration ...>`
-Click on the "Cascade" button
+You need to click on the "Cascade" button.
