@@ -30,7 +30,7 @@ Sigue estos pasos para instalar la extensión:
 
 ## Uso
 1. Navega a una página con enlaces externos de TMO.
-2. Haz clic en el botón **Cascade** para redirigir automáticamente al visor de ZonaTMO.
+2. Haz clic en el botón **Cascada** para redirigir automáticamente al visor de ZonaTMO.
 ![image](https://github.com/user-attachments/assets/b05d7fbc-beba-4164-86a0-19f9ca2d9034)
 
 
