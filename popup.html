@@ -2,10 +2,75 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Menu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMO Utility</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #34495e;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 300px;
+            margin: 0 auto;
+            opacity: 0; /* Inicialmente invisible */
+            transform: translateY(20px); /* Desplazamiento inicial */
+            animation: fadeIn 0.5s ease-out forwards; /* Animación */
+        }
+
+        .highlight {
+            color: #3498db; /* Cambiado a azul */
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #7f8c8d;
+        }
+
+        /* Animación de fade-in */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
 </head>
 <body>
-<h1>TMO Utility</h1>
-Automatically replace TMO external links to lectortmo.com viewer.
+    <div class="container">
+        <h1>TMO Utility</h1>
+        <p>
+            Automatically replaces external links to <span class="highlight">ZonaTMO</span> viewer.
+        </p>
+        <div class="footer">
+            Please click the "Cascade" button
+        </div>
+    </div>
 </body>
 </html>
