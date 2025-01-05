@@ -1,5 +1,5 @@
 # TMO-Utility
-[Leer en Español](README_es.md) | [Legi en Esperanto](README_eo.md)
+[Leer en Español](README_es.md)
 
 Chrome extension to automatically redirect TuMangaOnline external domain links to the main [Zonatmo.com](https://zonatmo.com) viewer  
 
